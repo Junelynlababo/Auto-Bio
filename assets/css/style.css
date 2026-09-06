@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #c9d6e2;
+}
+
+/* Main container */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auto;
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2f6690;
+}
+
+.profile h2 {
+    color: #183b56;
+    font-size: 30px;
+}
+
+.profile p:first-of-type {
+    color: #2f6690;
+    font-weight: bold;
+}
+
+/* Cards */
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2f6690;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    color: #183b56;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    padding-left: 25px;
+}
+
+.card li {
+    margin: 6px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #102a3c;
+    color: #c9d6e2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
